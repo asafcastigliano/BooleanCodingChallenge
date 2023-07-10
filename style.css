@@ -1,0 +1,79 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+    color: rgb(8,220,4);
+    margin-bottom: -10px;
+}
+
+#logo{
+    width: 20%;
+    margin-bottom: -30px;
+}
+
+nav{
+   background-color:rgb(8,220,4)
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+  
+nav > ul > li {
+    display: inline;
+}
+
+main > article > div > h2{
+    color: white;
+    margin-bottom: -10px;
+}
+
+.position {
+    color: white;
+    margin-bottom: -10px;
+}
+
+.charge{
+    color: white;
+}
+
+#charge1{
+    width: 35%;
+    background-color: rgb(245,180,83);
+}
+
+#charge2{
+    width: 70%;;
+    background-color: rgb(30,195,30);
+}
+
+#charge3{
+    width: 20%;
+    background-color: rgb(190,65,65);
+}
+
+#charge1, #charge2, #charge3{
+    margin-top: -15px;
+    height: 25px;
+    border-radius: 5px;
+}
